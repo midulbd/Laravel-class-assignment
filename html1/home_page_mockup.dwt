@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />				<!--html-5 -->
+		<title>GORZON SOLUTIONS PVT. LTD (Easy Solutions | Easy Life)</title>
+	</head>
+	<body>
+	 	<header>
+     		<h1>GORZON SOLUTIONS PVT. LTD</h1>
+			<h4>Easy Solutions | Easy Life</h4>
+     	</header>
+		
+        <nav>																				<!--navigation of submenu -->
+        	<a href="/index/">Home</a> |
+        	<a href="/about_us/">About Us</a> |
+        	<a href="/services/">Services</a> |
+       		<a href="/career/">Career</a> |
+        	<a href="/contact/">Contact us</a>
+		</nav>
+        <div>
+         <figure>																			<!--images -->
+      		<img src="photo1.jpg" alt="GORZON SOLUTIONS" width="304" height="228">
+            <img src="photo2.jpg" alt="GORZON SOLUTIONS" width="304" height="228">
+            <img src="photo3.jpg" alt="GORZON SOLUTIONS" width="304" height="228"><br>
+      		<figcaption>-Easy Life Easy Solutions.</figcaption>
+    	</figure> 
+        </div>
+      	
+       	<div id="container" style="width:1000px">
+
+        <div id="header" style="background-color:white;">
+        <h1 style="margin-bottom:0;">Your Trusted Solutions</h1>
+        </div>
+        
+        <div id="menu" style="background-color:grey;height:200px;width:100px;float:left;">
+          <p><br>
+        Product 1<br>
+        Product 2<br>
+        Product 3</p>
+          <p>This month<br>
+          <p>fssdfgdgdfgdf</p>
+          </p>
+          
+        </div>
+        
+        <div id="content" >
+                    
+          <div id ="tabular_data"> 													<!--tabular data -->
+                        <table width="301" border="1" style="width:300px">
+                        <caption>Our Ongoing Project Manager</caption>
+                        <tr>
+                          <th width="92">Project1</th>
+                          <th width="92">Project2</th>		
+                          <th width="95">Project3</th>
+                        </tr>
+                        <tr>
+                          <td>Jill</td>
+                          <td>Smith</td>		
+                          <td>Dob</td>
+                        </tr>
+                        <tr>
+                          <td>Eve</td>
+                          <td>Jackson</td>		
+                          <td>Bob</td>
+                        </tr>
+                        <tr>
+                          <td>John</td>
+                          <td>Doe</td>		
+                          <td>Erik</td>
+                        </tr>
+            </table>
+                        
+                     </div>
+        
+
+            <section>														<!--companys vision -->
+              <h1>Our visionl</h1>
+                  <p align="center">Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').</p>
+            </section>
+           
+       </div>
+        
+        <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+        </div>
+        
+    </div>
+    	
+        <footer>
+  			<p>Copyright © 2014 GSL • Powered by Gorzon</p>
+  			<p><time pubdate datetime="2012-03-01"></time></p>
+		</footer>
+</body>
+</html>
