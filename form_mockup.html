@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FTFL Registration Form</title>
+</head>
+
+<body>
+<form action="submit.html" id="regiform" method="get" autocomplete="on"><!--starting form -->
+<fieldset><!--starting fieldset -->
+	<legend>FTFL Registration Form</legend><!--form caption -->
+    <table><!--starting table -->
+        <tr>
+        <td>First Name: <input name="firstname" type="text" value="" size="30" maxlength="30"  autofocus required/></td><!--using  autofocus, required attributes-->
+        <td>Last Name: <input name="laststname" type="text" value="" size="30" maxlength="30" /></td></tr>
+        <tr><td>Date of Birth:<input type="date" name="bday" required></td></td></tr><!--using required attributes -->
+        <tr><td>E-mail: <input type="email" name="email"  autofocus required></td><!--autofocus and required attributes -->
+        <td>Telephone: <input type="tel" name="telphone" required></td></tr><!--required attributes -->
+    
+        <tr><td>What device do you use often:
+        	<input list="devices">
+    
+           <datalist id="devices"><!--using datalist -->
+              <option value="Smart phone">
+              <option value="Laptop">
+              <option value="Desktop">
+              <option value="Tab">
+            </datalist></td>
+            <tr><td>Gender:  <input type="radio" name="sex" value="male">Male<!--radio button -->
+                    <input type="radio" name="sex" value="female">Female</td></tr>
+            
+            <tr><td>How did you hear about us: <!--checkbox -->
+            <input type="checkbox" name="newspaper" value="Newspaper">Newspaper
+            <input type="checkbox" name="television" value="Television">Television
+            <input type="checkbox" name="online" value="Online">Online
+            <input type="checkbox" name="friends" value="Friends">Friends</td></tr>
+            <tr><td><input type="checkbox" name="others" value="Others">Others:<br> <textarea rows="5" cols="30"></textarea></td>
+            
+            <td>Which language are you good at
+                    <select><!--select attributes -->
+                        <optgroup label="Webdesigh">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                        </optgroup>
+                        <optgroup label="Programming">
+                            <option value="php">PHP</option>
+                            <option value="java">JAVA</option>
+                            <option value="asp">ASP</option>
+                        </optgroup>
+                    </select></td></tr>
+            
+    
+            
+            <tr><td>User Name:<input type="text" name="username" required></td>
+            <td>Password: <input type="password" name="pwd" required></td></tr>
+            
+            <tr><td><input type="submit" value="Submit"></td></tr>
+        
+      
+     
+    </table><!--closing table -->
+</fieldset><!--closing fieldset -->
+</form><!--closing form -->
+
+</body>
+</html>
